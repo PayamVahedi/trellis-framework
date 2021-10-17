@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>com.hamrasta</groupId>
+        <artifactId>trellis</artifactId>
+        <version>1.0</version>
+    </parent>
+    <groupId>com.hamrasta.trellis</groupId>
+    <artifactId>data</artifactId>
+    <version>1.0</version>
+    <modelVersion>4.0.0</modelVersion>
+    <packaging>pom</packaging>
+    <modules>
+        <module>data-core</module>
+        <module>data-sql</module>
+        <module>data-mongo</module>
+        <module>data-redis</module>
+    </modules>
+    <repositories>
+        <repository>
+            <id>trellis</id>
+            <url>https://github.com/PayamVahedi/trellis-framework/raw/master/mvn-repo</url>
+        </repository>
+    </repositories>
+</project>
